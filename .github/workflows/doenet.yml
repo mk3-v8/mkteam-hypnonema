@@ -30,7 +30,7 @@ jobs:
         node-version: '14'
         
     - run: cd src/Hypnonema.NUI/ && npm cache clean --force
-    - name: Build NUI 
+      name: Build NUI 
     - run: cd src/Hypnonema.NUI/ && npm install --legacy-peer-deps
     - name: Build NUI 
       run: cd src/Hypnonema.NUI/ && npm run build
