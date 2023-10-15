@@ -12,9 +12,9 @@
 
     public class UpdateChecker
     {
-        private const string RepositoryName = "fivem-hypnonema";
+        private const string RepositoryName = "mkteam-hypnonema";
 
-        private const string RepositoryOwner = "thiago-dev";
+        private const string RepositoryOwner = "mk3-v8";
 
         private static Version LocalVersion => new Version(GetAssemblyFileVersion());
 
